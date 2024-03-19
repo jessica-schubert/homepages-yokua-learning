@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: darkgreen;
+  background-color: rgba(250, 235, 215, 0.267);
+}
+
+header {
+  background-color: rgba(0, 128, 0, 0.424);
+  text-align: center;
+  border: yellowgreen solid 0.1rem;
+  border-radius: 0.1rem;
+}
+
+#content-text {
+  margin: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: solid darkgreen 0.2rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  background-color: rgba(0, 128, 0, 0.424);
+  text-align: center;
+}
+
+body {
+}
+footer {
+  margin: 1rem;
+  font-size: 15px;
+  border-top: solid 0.2rem rgba(0, 128, 0, 0.424);
+  border-radius: 0.25rem;
+}
+#btns-peak {
+  border: red solid 2px;
+  display: flex;
+}
+
+#btns-peak > button {
+  flex-direction: inline flex;
+  align-items: center;
+  margin-top: 1rem;
+  border: solid darkgreen 0.1rem;
+  border-radius: 0.25rem;
+  background-color: rgba(153, 205, 50, 0.755);
+  padding: 0.3rem;
+}
+
+#btns-buttom > button {
+  border: solid darkgreen 0.1rem;
+  border-radius: 0.25rem;
+  background-color: rgba(153, 205, 50, 0.755);
+  padding: 0.3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
