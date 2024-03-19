@@ -10,10 +10,56 @@ html {
 }
 
 header {
+  margin-bottom: 1rem;
   background-color: rgba(0, 128, 0, 0.424);
   text-align: center;
-  border: yellowgreen solid 0.1rem;
-  border-radius: 0.1rem;
+  border: yellowgreen solid 0.15rem;
+  border-radius: 0.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+body {
+  border: yellowgreen 0.1rem solid;
+  border-radius: 0.2rem;
+}
+
+#btns-peak {
+  margin: 0.3rem;
+  border: yellowgreen solid 2px;
+  border-radius: 0.12rem;
+  display: flex;
+  padding: 0.9rem;
+}
+
+#btns-peak > button {
+  align-items: center;
+  margin: 0.5rem;
+  border: solid darkgreen 0.1rem;
+  border-radius: 0.25rem;
+  background-color: rgba(153, 205, 50, 0.755);
+  padding: 0.5rem;
+}
+
+#btns-buttom {
+  margin: 0.3rem;
+  border: yellowgreen solid 2px;
+  border-radius: 0.12rem;
+  display: flex;
+  padding: 0.9rem;
+}
+
+#btns-buttom > button {
+  align-items: center;
+  margin: 0.5rem;
+  border: solid darkgreen 0.1rem;
+  border-radius: 0.25rem;
+  background-color: rgba(153, 205, 50, 0.755);
+  padding: 0.3rem;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
 }
 
 #content-text {
@@ -21,40 +67,16 @@ header {
   margin-top: 3rem;
   margin-bottom: 3rem;
   border: solid darkgreen 0.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.9rem;
   padding: 2rem;
   background-color: rgba(0, 128, 0, 0.424);
   text-align: center;
+  font-size: 2rem;
 }
 
-body {
-}
 footer {
   margin: 1rem;
   font-size: 15px;
   border-top: solid 0.2rem rgba(0, 128, 0, 0.424);
   border-radius: 0.25rem;
-}
-#btns-peak {
-  border: red solid 2px;
-  display: flex;
-}
-
-#btns-peak > button {
-  flex-direction: inline flex;
-  align-items: center;
-  margin-top: 1rem;
-  border: solid darkgreen 0.1rem;
-  border-radius: 0.25rem;
-  background-color: rgba(153, 205, 50, 0.755);
-  padding: 0.3rem;
-}
-
-#btns-buttom > button {
-  border: solid darkgreen 0.1rem;
-  border-radius: 0.25rem;
-  background-color: rgba(153, 205, 50, 0.755);
-  padding: 0.3rem;
-  width: 3.5rem;
-  height: 3.5rem;
 }
